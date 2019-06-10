@@ -110,3 +110,7 @@ header h1{
 .bottom >a.hot{
     opacity: 1;
 }
+.bottom >a>img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
