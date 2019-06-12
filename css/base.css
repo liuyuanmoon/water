@@ -12,6 +12,7 @@ img {
     display: block;
 }
 a{
+    -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     color: #FFFFFF;
 }

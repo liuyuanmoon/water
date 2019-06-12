@@ -1,5 +1,7 @@
 @import "base.css";
 header{
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 0.88rem;
     font-size: 0.38rem;
@@ -11,12 +13,14 @@ header{
     box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,155,0.13);
     margin-bottom: 1.14rem;
 }
+
 header > .iconfont {
     color: #4ebbfe;
 }
 .list{
     width: 100%;
     height: auto;
+    margin-top: 0.88rem;
     padding: 0.22rem;
     box-sizing: border-box;
     overflow: hidden;
